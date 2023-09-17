@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name=viewport content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Ajout d'employés</h1>
+        <form action="ajout_employe.php" method="post">
+            <label for="nom">Nom :</label>
+            <input type="text" name="nom" id="nom" required>
+
+            <label for="prenom">Prénom :</label>
+            <input type="text" name="prenom" id="prenom" required>
+
+            <label for="emploi">Poste :</label>
+            <input type="text" name="emploi" id="emploi" required>
+
+            <label for="noserv">Service :</label>
+            <select name="noserv" id="noserv" required>
+                <option value="1"> 1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+            </select>
+
+            <label for="sup">Supérieur :</label>
+            <select name="sup" id="sup">
+                <option value="">1000</option>
+                <option value="1">1200</option>
+                <option value="2">1300</option>
+                <option value="2">1300</option>
+                <option value="2">1500</option>
+                <option value="2">1600</option>
+            </select>
+
+            <input type="submit" name="submit" value="Valider">
+        </form>
+    </div>
+</body>
+</html>

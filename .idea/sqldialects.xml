@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/Model/ServiceEmploye.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Model/ServiceServ.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/affichage_employes.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/affichage_services.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/deleteEmploye.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/deleteService.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/index.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/updateEmployes.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/updateService.php" dialect="GenericSQL" />
+  </component>
+</project>
